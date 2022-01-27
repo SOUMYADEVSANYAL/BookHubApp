@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutAppFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtShortDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="This is a book app"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLongDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtShortDesc"
+        android:layout_margin="8dp"
+        android:padding="20sp"
+        android:text="This app displays the list of popular books. We can see the full description of each book. We can also add a book to favourites. The app also have other screens such as Profile page which will tell us about the developer that made the app and an About App page which will tell you about the app at which we are looking now."
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtEnjoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:text="Enjoy the world of book with this app :)"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/txtLongDesc"
+        android:textStyle="bold" />
+</RelativeLayout>
